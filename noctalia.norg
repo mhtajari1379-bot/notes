@@ -1,0 +1,53 @@
+* Search for alternatives
+* Switch to noctalia shell
+  - switch from waybar to noctalia shell
+* Build.sh
+  - add power profiles daemon to build.sh
+  - add optional dependencies like cava to build.sh
+* Change settigs
+  - font to iosevka nerd font
+  - change theme to catppuccin mocha
+  - and other customizations...
+* Add the configuration to dotfiles
+  - add configuration to dotfiles in:
+@code bash
+~/.config/noctalia/
+~/.config/quickshell/noctalia-shell
+@end
+* Add keybind to open app launcher
+  - first check if the command exist, then add the keybind to niri
+@code bash
+binds {
+    Mod+Space {
+        spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle";
+    }
+}
+@end
+* Niri keybinds
+  - add niri keybinds with the help of {https://docs.noctalia.dev/getting-started/keybinds/}
+@code bash
+binds {
+    // Core Noctalia binds
+    Mod+Space { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
+    Mod+S { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
+    Mod+Comma { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "settings" "toggle"; }
+
+    // Audio controls
+    XF86AudioRaiseVolume { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "increase"; }
+    XF86AudioLowerVolume { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "decrease"; }
+    XF86AudioMute { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "muteOutput"; }
+
+    // Brightness controls
+    XF86MonBrightnessUp { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "increase"; }
+    XF86MonBrightnessDown { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "brightness" "decrease"; }
+
+    // Utility shortcuts
+    Mod+V { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
+    Mod+C { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "launcher" "calculator"; }
+    Mod+L { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "lockScreen" "lock"; }
+}
+@end
+* Add widgets
+  - add widgets to statusbar specially keyboard layout
+* Add wallpaper & logo
+  - put them in their own paths with build.sh that copies them to their own dirs

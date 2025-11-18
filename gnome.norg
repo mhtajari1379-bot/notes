@@ -1,0 +1,16 @@
+* add gdm.service to build.sh
+@code bash
+#!/bin/bash
+
+# Check if any display manager is enabled
+if systemctl is-enabled --quiet display-manager.service; then
+    echo "Disabling current display manager..."
+    systemctl disable display-manager.service
+else
+    echo "No display manager is enabled."
+fi
+
+# Enable your chosen display manager (replace with gdm, sddm, lightdm, etc.)
+echo "Enabling new display manager..."
+systemctl enable sddm.service
+@end

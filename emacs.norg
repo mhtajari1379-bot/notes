@@ -1,0 +1,11 @@
+* Seven Emacs videos
+  watch the 7 emacs videos from DT
+* Test elpaca
+  - test elpaca first, if it worked, switch to emacs
+* Language support
+  - add language support for elisp & org to neovim & emacs & zed
+* Color support
+  - add color support to emacs so it shows things like #ffffff color
+
+* Change font
+  - change font to iosevka nerd font

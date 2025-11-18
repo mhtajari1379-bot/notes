@@ -1,0 +1,8 @@
+* Build.sh
+  - put the check installed into a function
+* Esc
+  - esc should cancel search highligh
+* Yank highlight
+  - yank should highlight the yanked part for 1 sec
+* Color support
+  - add color support to neovim so it shows things like #ffffff color

@@ -1,0 +1,17 @@
+* Customize niri video
+  - watch the video and customize niri with the help of it
+* Build.sh
+  - add optional dependencies to build.sh
+  - put the check installed into a function
+* Kdl support
+  - add kdl language support to neovim & zed & emacs
+* Tab
+  - learn how tabs works & ...
+* Nautilus
+  - add a keybind to open nautilus
+* Emacs
+  - add a keybind to open emacs (super shift enter)
+* Zed
+  - add a keybind to open zed (super shift z?)
+* Rules
+  - rules for zen browser & telegram desktop to open in their own workspaces

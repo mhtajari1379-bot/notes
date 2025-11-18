@@ -1,0 +1,6 @@
+
+* Build.sh
+  - it should contain things like eza, zoxide and starship in it
+* functions
+  - add recording functions to it
+  - add xdg-open function to it
