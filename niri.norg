@@ -1,10 +1,14 @@
 * Customize niri video
   - watch the video and customize niri with the help of it
+* Center windows
+  - when there is only one window open, put it on the center of the screen
 * Build.sh
   - add optional dependencies to build.sh
   - put the check installed into a function
+* Learn from DMS
+  - learn from DMS's config
 * Kdl support
-  - add kdl language support to neovim & zed & emacs
+  - add kdl language support to neovim & emacs
 * Tab
   - learn how tabs works & ...
 * Nautilus
@@ -15,3 +19,5 @@
   - add a keybind to open zed (super shift z?)
 * Rules
   - rules for zen browser & telegram desktop to open in their own workspaces
+* Fix authentication
+  - fix having to authenticate each time after booting system

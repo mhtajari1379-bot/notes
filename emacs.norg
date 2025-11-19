@@ -3,7 +3,7 @@
 * Test elpaca
   - test elpaca first, if it worked, switch to emacs
 * Language support
-  - add language support for elisp & org to neovim & emacs & zed
+  - add language support for elisp & org to neovim & emacs
 * Color support
   - add color support to emacs so it shows things like #ffffff color
 

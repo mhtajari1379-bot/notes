@@ -1,5 +1,5 @@
 * Git
-  - check 2 last pushes
+  - check last 4 commits
 * Function for Build.sh
   - {:neovim:* Build.sh}
   - {:niri:* Build.sh}

@@ -1,9 +1,8 @@
 * Search for alternatives
-* Switch to noctalia shell
-  - switch from waybar to noctalia shell
 * Build.sh
+  - add it's service to build.sh
   - add power profiles daemon to build.sh
-  - add optional dependencies like cava to build.sh
+  - add optional dependencies like cava & cliphist to build.sh
 * Change settigs
   - font to iosevka nerd font
   - change theme to catppuccin mocha

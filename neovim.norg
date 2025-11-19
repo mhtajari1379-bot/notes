@@ -6,3 +6,5 @@
   - yank should highlight the yanked part for 1 sec
 * Color support
   - add color support to neovim so it shows things like #ffffff color
+* Language support
+- add support for hyprland's configurations

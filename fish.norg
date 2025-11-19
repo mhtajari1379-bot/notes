@@ -2,5 +2,6 @@
 * Build.sh
   - it should contain things like eza, zoxide and starship in it
 * functions
-  - add recording functions to it
+  - add recording functions to it (wf-recorder)
   - add xdg-open function to it
+  - add cliphist function to it
