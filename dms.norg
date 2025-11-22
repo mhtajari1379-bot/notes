@@ -1,0 +1,62 @@
+* Build.sh
+  - add power profiles daemon to build.sh
+  - add optional dependencies like cava & cliphist to build.sh
+* Add packages to build.sh
+  - dms-shell-bin
+  - xdg-desktop-portal-gtk
+  - mate-polkit
+  - xwayland-satellite
+  - matugen
+  - hyprpicker
+  - cliphist
+  - wl-clipboard
+  - cava
+  - qt6-multimedia
+  - qt6ct
+
+* Changes:
+  - catppuccin blue theme
+  - automatic weather
+  - keyboard layout
+  - idle widget
+  - iosevka nerd font
+  - widgets: system updater: add commands
+* Installation steps
+** Curl command
+   @code bash
+   curl -fsSL https://install.danklinux.com | sh
+   @end
+** Enable DMS service
+   @code bash
+   systemctl --user enable --now dms.service
+   @end
+** add gdm.service to build.sh
+   @code bash
+   paru -S greetd-dms-greeter.git
+
+   dms greeter enable
+
+   sudo systemctl disable display-manager.service
+
+   sudo systemctl enable greetd
+
+   #!/bin/bash
+
+   # Check if any display manager is enabled
+   if systemctl is-enabled --quiet display-manager.service; then
+   echo "Disabling current display manager..."
+   systemctl disable display-manager.service
+   else
+   echo "No display manager is enabled."
+   fi
+
+   # Enable your chosen display manager (replace with gdm, sddm, lightdm, etc.)
+   echo "Enabling new display manager..."
+   systemctl enable sddm.service
+   @end
+** Dsearch
+   @code bash
+   paru -S dsearch-bin
+
+   systemctl --user enable --now dsearch.service
+   @end

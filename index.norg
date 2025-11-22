@@ -9,10 +9,10 @@
   - {:tmux:}
   - {:fish:}
   - {:niri:}
-  - {:noctalia:}
-  - {:gnome:}
+  - {:dms:}
   - {:newra-v3:}
   - {:stow:}
+  - {:paru:}
   - {:aur:}
   - {:packages:}
   - {:ghostty:}

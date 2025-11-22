@@ -11,13 +11,11 @@
   - add kdl language support to neovim & emacs
 * Tab
   - learn how tabs works & ...
-* Nautilus
-  - add a keybind to open nautilus
 * Emacs
   - add a keybind to open emacs (super shift enter)
-* Zed
-  - add a keybind to open zed (super shift z?)
 * Rules
   - rules for zen browser & telegram desktop to open in their own workspaces
 * Fix authentication
   - fix having to authenticate each time after booting system
+* Add wallpaper & logo
+  - put them in their own paths with build.sh that copies them to their own dirs
