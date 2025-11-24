@@ -13,9 +13,11 @@
   - cava
   - qt6-multimedia
   - qt6ct
+  - dgop
+  - dsearch
 
 * Changes:
-  - catppuccin blue theme
+  - catppuccin blue theme/ auto: vibrant
   - automatic weather
   - keyboard layout
   - idle widget

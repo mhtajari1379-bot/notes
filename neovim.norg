@@ -1,5 +1,7 @@
 * Build.sh
   - put the check installed into a function
+* Rewrite
+  - rewrite neovim config
 * Esc
   - esc should cancel search highligh
 * Yank highlight

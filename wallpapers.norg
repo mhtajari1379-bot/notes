@@ -1,0 +1,3 @@
+* add to Build.sh
+  - make a new build.sh (inside Wallpapers directory) that goes inside Pictures directory (using brackets) and clones {https://github.com/D3Ext/aesthetic-wallpapers}
+  - this script should be commented and optional inside the main build.sh (cuz of it's size)

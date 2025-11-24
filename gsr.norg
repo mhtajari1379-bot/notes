@@ -1,0 +1,9 @@
+* Learn
+  - learn how to work with gpu screen recorder (launching & default keybinds...)
+* Build.sh
+  - add gpu-screen-recorder & gpu-screen-recorder-ui instead of wf-recorder
+* Niri
+  - add it's launch-daemon to niri autostart script:
+  @code bash
+  gsr-ui launch-daemon &
+  @end

@@ -1,11 +1,11 @@
-* Git
-  - check last 4 commits
+* Copy the output
+  - a function that runs the command and then copies the output
 * Old Configs
-  - add the features of old ghostty & niri configs to new ones
-* Telegram notes
-  - add telegram notes to neorg
-* DMS config
-  - remove dms config for now (defaults are fine)
+  - add the features of old ghostty & niri (newra-v3) configs to new ones
+* Wallpapers
+  - find backup from old wallpapers and bring back the nice ones
+* Smart splits
+  - update smart splits in both neovim & tmux
 * Function for Build.sh
   - {:neovim:* Build.sh}
   - {:niri:* Build.sh}

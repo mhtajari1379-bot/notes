@@ -1,5 +1,7 @@
 * Customize niri video
   - watch the video and customize niri with the help of it
+* Switch with mouse
+  - enable so that active window follows mouse
 * Center windows
   - when there is only one window open, put it on the center of the screen
 * Build.sh
