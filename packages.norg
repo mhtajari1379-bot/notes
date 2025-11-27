@@ -2,3 +2,6 @@
   - wl-clipboard
   - ttf-dejavu
   - noto fonts
+  - asciiquarium
+  - hyprpicker
+  - imagemagick (dependency for hyprpicker)

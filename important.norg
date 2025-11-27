@@ -1,7 +1,5 @@
-* Copy the output
-  - a function that runs the command and then copies the output
-* Old Configs
-  - add the features of old ghostty & niri (newra-v3) configs to new ones
+* Upper case directories
+  - move lower case directories inside Dotfiles into Uppercase ones and add build.sh
 * Wallpapers
   - find backup from old wallpapers and bring back the nice ones
 * Smart splits

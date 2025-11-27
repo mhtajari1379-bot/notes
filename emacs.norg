@@ -1,3 +1,8 @@
+* Emacs Daemon
+  - add starting of emacs daemon to build.sh:
+  @code bash
+  systemctl --user enable --now emacs
+  @end
 * Seven Emacs videos
   watch the 7 emacs videos from DT
 * Test elpaca

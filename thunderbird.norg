@@ -1,0 +1,4 @@
+* Build.sh
+  - add thunderbird to build.sh
+* Keybind to open thunderbird
+  - add a keybind to open thunderbird (Mod+U)
